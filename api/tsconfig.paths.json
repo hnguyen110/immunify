@@ -3,6 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "@functions/*": ["src/functions/*"],
+      "@functions/reservations/*": ["src/functions/reservations/*"],
+      "@functions/times/*": ["src/functions/times/*"],
+      "@resources/dynamodb/*": ["src/resources/dynamodb/*"],
+      "@resources/sqs/*": ["src/resources/sqs/*"],
       "@libs/*": ["src/libs/*"]
     }
   }

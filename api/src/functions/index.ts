@@ -1,1 +1,2 @@
-export { default as hello } from './hello';
+export * from "@functions/reservations";
+export * from "@functions/times";
